@@ -3,18 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		003112B9200601C67269AACB /* Pods_MemriTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B91022F0D787FE49BD45FC79 /* Pods_MemriTests.framework */; };
+		124E4B09C39889D71BB9F6D3 /* Pods_Memri.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BE782BF90CAE203B0E5821 /* Pods_Memri.framework */; };
 		5A1E21F226C80E63006651CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E21F126C80E63006651CE /* AppDelegate.swift */; };
 		5A1E21F426C80E63006651CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E21F326C80E63006651CE /* SceneDelegate.swift */; };
-		5A1E21F626C80E63006651CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E21F526C80E63006651CE /* ViewController.swift */; };
-		5A1E21F926C80E63006651CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A1E21F726C80E63006651CE /* Main.storyboard */; };
-		5A1E21FB26C80E65006651CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A1E21FA26C80E65006651CE /* Assets.xcassets */; };
+		5A1E21F626C80E63006651CE /* DynamicFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E21F526C80E63006651CE /* DynamicFormViewController.swift */; };
 		5A1E21FE26C80E65006651CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A1E21FC26C80E65006651CE /* LaunchScreen.storyboard */; };
 		5A1E220926C80E65006651CE /* MemriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E220826C80E65006651CE /* MemriTests.swift */; };
-		5A1E221426C80E65006651CE /* MemriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E221326C80E65006651CE /* MemriUITests.swift */; };
+		5A1E222326C95ED5006651CE /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E222226C95ED5006651CE /* BaseCell.swift */; };
+		5A1E222626C9600F006651CE /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E222526C9600F006651CE /* ImageCell.swift */; };
+		5A1E222826C96017006651CE /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E222726C96017006651CE /* TextCell.swift */; };
+		5A1E222A26C96022006651CE /* RowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E222926C96022006651CE /* RowCell.swift */; };
+		5A1E222C26C96029006651CE /* ColumnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E222B26C96029006651CE /* ColumnCell.swift */; };
+		5A1E222E26C96033006651CE /* StackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E222D26C96033006651CE /* StackCell.swift */; };
+		5A1E223326C960EA006651CE /* CellFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E223226C960EA006651CE /* CellFactory.swift */; };
+		5A1E223626C961C6006651CE /* CellDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E223526C961C6006651CE /* CellDetails.swift */; };
+		5A1E223826C96234006651CE /* CellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E223726C96234006651CE /* CellData.swift */; };
+		5A1E223B26C9626D006651CE /* RangeReplaceableCollection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E223A26C9626D006651CE /* RangeReplaceableCollection+Extension.swift */; };
+		5A1E223E26C96444006651CE /* DynamicFormInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E223D26C96444006651CE /* DynamicFormInteractor.swift */; };
+		5A1E224026C96590006651CE /* DynamicFormService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E223F26C96590006651CE /* DynamicFormService.swift */; };
+		5A1E224226C965A2006651CE /* DynamicFormRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E224126C965A2006651CE /* DynamicFormRepository.swift */; };
+		5A1E224426C966AE006651CE /* MemriError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E224326C966AE006651CE /* MemriError.swift */; };
+		5A1E224626C96A2A006651CE /* DynamicFormPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E224526C96A2A006651CE /* DynamicFormPresenter.swift */; };
+		5A1E224926C96F31006651CE /* DynamicFormRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E224826C96F31006651CE /* DynamicFormRouter.swift */; };
+		5A1E224B26C9779D006651CE /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E224A26C9779D006651CE /* UIImageView+Extension.swift */; };
+		5A1E224D26C9A703006651CE /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E224C26C9A703006651CE /* String+Extension.swift */; };
+		5A1E224F26C9ABF6006651CE /* MultipleItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E224E26C9ABF6006651CE /* MultipleItemCell.swift */; };
+		5A1E225126C9AD0E006651CE /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E225026C9AD0E006651CE /* UIView+Extension.swift */; };
+		5A1E225526C9B639006651CE /* CellDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E225426C9B639006651CE /* CellDataTests.swift */; };
+		5A1E225A26C9BC77006651CE /* DynamicFormRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E225926C9BC77006651CE /* DynamicFormRouterTests.swift */; };
+		5A1E225C26C9C13E006651CE /* DynamicFormPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E225B26C9C13E006651CE /* DynamicFormPresenterTests.swift */; };
+		5A1E225E26C9C341006651CE /* DynamicFormRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E225D26C9C341006651CE /* DynamicFormRepositoryTests.swift */; };
+		5A1E226026C9C48F006651CE /* DynamicFormServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E225F26C9C48F006651CE /* DynamicFormServiceTests.swift */; };
+		5A1E226226C9C5E3006651CE /* DynamicFormInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E226126C9C5E3006651CE /* DynamicFormInteractorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,30 +50,53 @@
 			remoteGlobalIDString = 5A1E21ED26C80E63006651CE;
 			remoteInfo = Memri;
 		};
-		5A1E221026C80E65006651CE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A1E21E626C80E63006651CE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5A1E21ED26C80E63006651CE;
-			remoteInfo = Memri;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		565892EF1B7182433F56B1B7 /* Pods-Memri.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memri.release.xcconfig"; path = "Target Support Files/Pods-Memri/Pods-Memri.release.xcconfig"; sourceTree = "<group>"; };
 		5A1E21EE26C80E63006651CE /* Memri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A1E21F126C80E63006651CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A1E21F326C80E63006651CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5A1E21F526C80E63006651CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5A1E21F826C80E63006651CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5A1E21FA26C80E65006651CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A1E21F526C80E63006651CE /* DynamicFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFormViewController.swift; sourceTree = "<group>"; };
 		5A1E21FD26C80E65006651CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A1E21FF26C80E65006651CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A1E220426C80E65006651CE /* MemriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A1E220826C80E65006651CE /* MemriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemriTests.swift; sourceTree = "<group>"; };
 		5A1E220A26C80E65006651CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5A1E220F26C80E65006651CE /* MemriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A1E221326C80E65006651CE /* MemriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemriUITests.swift; sourceTree = "<group>"; };
-		5A1E221526C80E65006651CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A1E222226C95ED5006651CE /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		5A1E222526C9600F006651CE /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		5A1E222726C96017006651CE /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		5A1E222926C96022006651CE /* RowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowCell.swift; sourceTree = "<group>"; };
+		5A1E222B26C96029006651CE /* ColumnCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnCell.swift; sourceTree = "<group>"; };
+		5A1E222D26C96033006651CE /* StackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackCell.swift; sourceTree = "<group>"; };
+		5A1E223226C960EA006651CE /* CellFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellFactory.swift; sourceTree = "<group>"; };
+		5A1E223526C961C6006651CE /* CellDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDetails.swift; sourceTree = "<group>"; };
+		5A1E223726C96234006651CE /* CellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellData.swift; sourceTree = "<group>"; };
+		5A1E223A26C9626D006651CE /* RangeReplaceableCollection+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RangeReplaceableCollection+Extension.swift"; sourceTree = "<group>"; };
+		5A1E223D26C96444006651CE /* DynamicFormInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFormInteractor.swift; sourceTree = "<group>"; };
+		5A1E223F26C96590006651CE /* DynamicFormService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFormService.swift; sourceTree = "<group>"; };
+		5A1E224126C965A2006651CE /* DynamicFormRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFormRepository.swift; sourceTree = "<group>"; };
+		5A1E224326C966AE006651CE /* MemriError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemriError.swift; sourceTree = "<group>"; };
+		5A1E224526C96A2A006651CE /* DynamicFormPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFormPresenter.swift; sourceTree = "<group>"; };
+		5A1E224826C96F31006651CE /* DynamicFormRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFormRouter.swift; sourceTree = "<group>"; };
+		5A1E224A26C9779D006651CE /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		5A1E224C26C9A703006651CE /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		5A1E224E26C9ABF6006651CE /* MultipleItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleItemCell.swift; sourceTree = "<group>"; };
+		5A1E225026C9AD0E006651CE /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		5A1E225426C9B639006651CE /* CellDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDataTests.swift; sourceTree = "<group>"; };
+		5A1E225926C9BC77006651CE /* DynamicFormRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFormRouterTests.swift; sourceTree = "<group>"; };
+		5A1E225B26C9C13E006651CE /* DynamicFormPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFormPresenterTests.swift; sourceTree = "<group>"; };
+		5A1E225D26C9C341006651CE /* DynamicFormRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFormRepositoryTests.swift; sourceTree = "<group>"; };
+		5A1E225F26C9C48F006651CE /* DynamicFormServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFormServiceTests.swift; sourceTree = "<group>"; };
+		5A1E226126C9C5E3006651CE /* DynamicFormInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFormInteractorTests.swift; sourceTree = "<group>"; };
+		72BE782BF90CAE203B0E5821 /* Pods_Memri.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Memri.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9686660CB207D8E843F897F9 /* Pods-MemriTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemriTests.debug.xcconfig"; path = "Target Support Files/Pods-MemriTests/Pods-MemriTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9CD9CDB08FCDD68335891298 /* Pods-MemriTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemriTests.release.xcconfig"; path = "Target Support Files/Pods-MemriTests/Pods-MemriTests.release.xcconfig"; sourceTree = "<group>"; };
+		9DAD325F35D664FF9FF6A847 /* Pods-Memri-MemriUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memri-MemriUITests.release.xcconfig"; path = "Target Support Files/Pods-Memri-MemriUITests/Pods-Memri-MemriUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B1A0832B74E15EF93D18CFCA /* Pods-Memri-MemriUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memri-MemriUITests.debug.xcconfig"; path = "Target Support Files/Pods-Memri-MemriUITests/Pods-Memri-MemriUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B91022F0D787FE49BD45FC79 /* Pods_MemriTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MemriTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB6AF672D40623FC872AC7C /* Pods-Memri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memri.debug.xcconfig"; path = "Target Support Files/Pods-Memri/Pods-Memri.debug.xcconfig"; sourceTree = "<group>"; };
+		E09D4E2E7C1D1F755F7D2D21 /* Pods_Memri_MemriUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Memri_MemriUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				124E4B09C39889D71BB9F6D3 /* Pods_Memri.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,26 +112,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A1E220C26C80E65006651CE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				003112B9200601C67269AACB /* Pods_MemriTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31A02DE0703323F3E7450ECB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCB6AF672D40623FC872AC7C /* Pods-Memri.debug.xcconfig */,
+				565892EF1B7182433F56B1B7 /* Pods-Memri.release.xcconfig */,
+				B1A0832B74E15EF93D18CFCA /* Pods-Memri-MemriUITests.debug.xcconfig */,
+				9DAD325F35D664FF9FF6A847 /* Pods-Memri-MemriUITests.release.xcconfig */,
+				9686660CB207D8E843F897F9 /* Pods-MemriTests.debug.xcconfig */,
+				9CD9CDB08FCDD68335891298 /* Pods-MemriTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5A1E21E526C80E63006651CE = {
 			isa = PBXGroup;
 			children = (
 				5A1E21F026C80E63006651CE /* Memri */,
 				5A1E220726C80E65006651CE /* MemriTests */,
-				5A1E221226C80E65006651CE /* MemriUITests */,
 				5A1E21EF26C80E63006651CE /* Products */,
+				31A02DE0703323F3E7450ECB /* Pods */,
+				C2EEDDFF3D9147EEBB546688 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,7 +148,6 @@
 			children = (
 				5A1E21EE26C80E63006651CE /* Memri.app */,
 				5A1E220426C80E65006651CE /* MemriTests.xctest */,
-				5A1E220F26C80E65006651CE /* MemriUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +155,11 @@
 		5A1E21F026C80E63006651CE /* Memri */ = {
 			isa = PBXGroup;
 			children = (
-				5A1E21F126C80E63006651CE /* AppDelegate.swift */,
-				5A1E21F326C80E63006651CE /* SceneDelegate.swift */,
-				5A1E21F526C80E63006651CE /* ViewController.swift */,
-				5A1E21F726C80E63006651CE /* Main.storyboard */,
-				5A1E21FA26C80E65006651CE /* Assets.xcassets */,
-				5A1E21FC26C80E65006651CE /* LaunchScreen.storyboard */,
-				5A1E21FF26C80E65006651CE /* Info.plist */,
+				5A1E223C26C962B0006651CE /* Application */,
+				5A1E223926C96252006651CE /* Extension */,
+				5A1E222F26C96098006651CE /* DynamicFormScene */,
+				5A1E222426C96001006651CE /* Cells */,
+				5A1E222126C95EBC006651CE /* Core */,
 			);
 			path = Memri;
 			sourceTree = "<group>";
@@ -113,19 +167,118 @@
 		5A1E220726C80E65006651CE /* MemriTests */ = {
 			isa = PBXGroup;
 			children = (
+				5A1E225826C9BC52006651CE /* DynamicFormScene */,
+				5A1E225226C9B61A006651CE /* Core */,
 				5A1E220826C80E65006651CE /* MemriTests.swift */,
 				5A1E220A26C80E65006651CE /* Info.plist */,
 			);
 			path = MemriTests;
 			sourceTree = "<group>";
 		};
-		5A1E221226C80E65006651CE /* MemriUITests */ = {
+		5A1E222126C95EBC006651CE /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				5A1E221326C80E65006651CE /* MemriUITests.swift */,
-				5A1E221526C80E65006651CE /* Info.plist */,
+				5A1E223426C961BB006651CE /* Model */,
+				5A1E222226C95ED5006651CE /* BaseCell.swift */,
+				5A1E223226C960EA006651CE /* CellFactory.swift */,
 			);
-			path = MemriUITests;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5A1E222426C96001006651CE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5A1E222526C9600F006651CE /* ImageCell.swift */,
+				5A1E222726C96017006651CE /* TextCell.swift */,
+				5A1E222926C96022006651CE /* RowCell.swift */,
+				5A1E222B26C96029006651CE /* ColumnCell.swift */,
+				5A1E222D26C96033006651CE /* StackCell.swift */,
+				5A1E224E26C9ABF6006651CE /* MultipleItemCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5A1E222F26C96098006651CE /* DynamicFormScene */ = {
+			isa = PBXGroup;
+			children = (
+				5A1E21F526C80E63006651CE /* DynamicFormViewController.swift */,
+				5A1E223D26C96444006651CE /* DynamicFormInteractor.swift */,
+				5A1E223F26C96590006651CE /* DynamicFormService.swift */,
+				5A1E224126C965A2006651CE /* DynamicFormRepository.swift */,
+				5A1E224526C96A2A006651CE /* DynamicFormPresenter.swift */,
+				5A1E224826C96F31006651CE /* DynamicFormRouter.swift */,
+			);
+			path = DynamicFormScene;
+			sourceTree = "<group>";
+		};
+		5A1E223426C961BB006651CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A1E223526C961C6006651CE /* CellDetails.swift */,
+				5A1E223726C96234006651CE /* CellData.swift */,
+				5A1E224326C966AE006651CE /* MemriError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A1E223926C96252006651CE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5A1E223A26C9626D006651CE /* RangeReplaceableCollection+Extension.swift */,
+				5A1E224A26C9779D006651CE /* UIImageView+Extension.swift */,
+				5A1E224C26C9A703006651CE /* String+Extension.swift */,
+				5A1E225026C9AD0E006651CE /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5A1E223C26C962B0006651CE /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5A1E21FC26C80E65006651CE /* LaunchScreen.storyboard */,
+				5A1E21FF26C80E65006651CE /* Info.plist */,
+				5A1E21F126C80E63006651CE /* AppDelegate.swift */,
+				5A1E21F326C80E63006651CE /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		5A1E225226C9B61A006651CE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5A1E225326C9B626006651CE /* Model */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5A1E225326C9B626006651CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A1E225426C9B639006651CE /* CellDataTests.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A1E225826C9BC52006651CE /* DynamicFormScene */ = {
+			isa = PBXGroup;
+			children = (
+				5A1E225926C9BC77006651CE /* DynamicFormRouterTests.swift */,
+				5A1E225B26C9C13E006651CE /* DynamicFormPresenterTests.swift */,
+				5A1E225D26C9C341006651CE /* DynamicFormRepositoryTests.swift */,
+				5A1E225F26C9C48F006651CE /* DynamicFormServiceTests.swift */,
+				5A1E226126C9C5E3006651CE /* DynamicFormInteractorTests.swift */,
+			);
+			path = DynamicFormScene;
+			sourceTree = "<group>";
+		};
+		C2EEDDFF3D9147EEBB546688 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72BE782BF90CAE203B0E5821 /* Pods_Memri.framework */,
+				E09D4E2E7C1D1F755F7D2D21 /* Pods_Memri_MemriUITests.framework */,
+				B91022F0D787FE49BD45FC79 /* Pods_MemriTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,9 +288,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A1E221826C80E65006651CE /* Build configuration list for PBXNativeTarget "Memri" */;
 			buildPhases = (
+				4545BCD6E5B8A2F1E5E6585E /* [CP] Check Pods Manifest.lock */,
 				5A1E21EA26C80E63006651CE /* Sources */,
 				5A1E21EB26C80E63006651CE /* Frameworks */,
 				5A1E21EC26C80E63006651CE /* Resources */,
+				7DD84D471801744D933BDF01 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +307,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A1E221B26C80E65006651CE /* Build configuration list for PBXNativeTarget "MemriTests" */;
 			buildPhases = (
+				C1A75C5326661354B296EF75 /* [CP] Check Pods Manifest.lock */,
 				5A1E220026C80E65006651CE /* Sources */,
 				5A1E220126C80E65006651CE /* Frameworks */,
 				5A1E220226C80E65006651CE /* Resources */,
@@ -166,24 +322,6 @@
 			productReference = 5A1E220426C80E65006651CE /* MemriTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5A1E220E26C80E65006651CE /* MemriUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5A1E221E26C80E65006651CE /* Build configuration list for PBXNativeTarget "MemriUITests" */;
-			buildPhases = (
-				5A1E220B26C80E65006651CE /* Sources */,
-				5A1E220C26C80E65006651CE /* Frameworks */,
-				5A1E220D26C80E65006651CE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5A1E221126C80E65006651CE /* PBXTargetDependency */,
-			);
-			name = MemriUITests;
-			productName = MemriUITests;
-			productReference = 5A1E220F26C80E65006651CE /* MemriUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +335,6 @@
 						CreatedOnToolsVersion = 12.5.1;
 					};
 					5A1E220326C80E65006651CE = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 5A1E21ED26C80E63006651CE;
-					};
-					5A1E220E26C80E65006651CE = {
 						CreatedOnToolsVersion = 12.5.1;
 						TestTargetID = 5A1E21ED26C80E63006651CE;
 					};
@@ -221,7 +355,6 @@
 			targets = (
 				5A1E21ED26C80E63006651CE /* Memri */,
 				5A1E220326C80E65006651CE /* MemriTests */,
-				5A1E220E26C80E65006651CE /* MemriUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,8 +365,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A1E21FE26C80E65006651CE /* LaunchScreen.storyboard in Resources */,
-				5A1E21FB26C80E65006651CE /* Assets.xcassets in Resources */,
-				5A1E21F926C80E63006651CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,23 +375,100 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A1E220D26C80E65006651CE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4545BCD6E5B8A2F1E5E6585E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Memri-checkManifestLockResult.txt",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		7DD84D471801744D933BDF01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Memri/Pods-Memri-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Memri/Pods-Memri-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Memri/Pods-Memri-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1A75C5326661354B296EF75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MemriTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5A1E21EA26C80E63006651CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A1E21F626C80E63006651CE /* ViewController.swift in Sources */,
+				5A1E222A26C96022006651CE /* RowCell.swift in Sources */,
+				5A1E224D26C9A703006651CE /* String+Extension.swift in Sources */,
+				5A1E224626C96A2A006651CE /* DynamicFormPresenter.swift in Sources */,
+				5A1E224926C96F31006651CE /* DynamicFormRouter.swift in Sources */,
+				5A1E224426C966AE006651CE /* MemriError.swift in Sources */,
+				5A1E222C26C96029006651CE /* ColumnCell.swift in Sources */,
+				5A1E223B26C9626D006651CE /* RangeReplaceableCollection+Extension.swift in Sources */,
+				5A1E223826C96234006651CE /* CellData.swift in Sources */,
+				5A1E223626C961C6006651CE /* CellDetails.swift in Sources */,
+				5A1E222326C95ED5006651CE /* BaseCell.swift in Sources */,
+				5A1E225126C9AD0E006651CE /* UIView+Extension.swift in Sources */,
+				5A1E222E26C96033006651CE /* StackCell.swift in Sources */,
+				5A1E224B26C9779D006651CE /* UIImageView+Extension.swift in Sources */,
+				5A1E21F626C80E63006651CE /* DynamicFormViewController.swift in Sources */,
 				5A1E21F226C80E63006651CE /* AppDelegate.swift in Sources */,
+				5A1E223E26C96444006651CE /* DynamicFormInteractor.swift in Sources */,
+				5A1E223326C960EA006651CE /* CellFactory.swift in Sources */,
 				5A1E21F426C80E63006651CE /* SceneDelegate.swift in Sources */,
+				5A1E222826C96017006651CE /* TextCell.swift in Sources */,
+				5A1E224F26C9ABF6006651CE /* MultipleItemCell.swift in Sources */,
+				5A1E224026C96590006651CE /* DynamicFormService.swift in Sources */,
+				5A1E222626C9600F006651CE /* ImageCell.swift in Sources */,
+				5A1E224226C965A2006651CE /* DynamicFormRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,15 +476,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A1E225E26C9C341006651CE /* DynamicFormRepositoryTests.swift in Sources */,
+				5A1E226226C9C5E3006651CE /* DynamicFormInteractorTests.swift in Sources */,
+				5A1E226026C9C48F006651CE /* DynamicFormServiceTests.swift in Sources */,
+				5A1E225A26C9BC77006651CE /* DynamicFormRouterTests.swift in Sources */,
 				5A1E220926C80E65006651CE /* MemriTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A1E220B26C80E65006651CE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A1E221426C80E65006651CE /* MemriUITests.swift in Sources */,
+				5A1E225C26C9C13E006651CE /* DynamicFormPresenterTests.swift in Sources */,
+				5A1E225526C9B639006651CE /* CellDataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,22 +494,9 @@
 			target = 5A1E21ED26C80E63006651CE /* Memri */;
 			targetProxy = 5A1E220526C80E65006651CE /* PBXContainerItemProxy */;
 		};
-		5A1E221126C80E65006651CE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5A1E21ED26C80E63006651CE /* Memri */;
-			targetProxy = 5A1E221026C80E65006651CE /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5A1E21F726C80E63006651CE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A1E21F826C80E63006651CE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5A1E21FC26C80E65006651CE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,11 +626,13 @@
 		};
 		5A1E221926C80E65006651CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB6AF672D40623FC872AC7C /* Pods-Memri.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Memri/Info.plist;
+				DEVELOPMENT_TEAM = Z7FM66WMX8;
+				INFOPLIST_FILE = Memri/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,11 +646,13 @@
 		};
 		5A1E221A26C80E65006651CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 565892EF1B7182433F56B1B7 /* Pods-Memri.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Memri/Info.plist;
+				DEVELOPMENT_TEAM = MDX3YAYL2Q;
+				INFOPLIST_FILE = Memri/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,6 +666,7 @@
 		};
 		5A1E221C26C80E65006651CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9686660CB207D8E843F897F9 /* Pods-MemriTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +688,7 @@
 		};
 		5A1E221D26C80E65006651CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CD9CDB08FCDD68335891298 /* Pods-MemriTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,44 +705,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memri.app/Memri";
-			};
-			name = Release;
-		};
-		5A1E221F26C80E65006651CE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MemriUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.memritest.MemriUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Memri;
-			};
-			name = Debug;
-		};
-		5A1E222026C80E65006651CE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MemriUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.memritest.MemriUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Memri;
 			};
 			name = Release;
 		};
@@ -573,15 +734,6 @@
 			buildConfigurations = (
 				5A1E221C26C80E65006651CE /* Debug */,
 				5A1E221D26C80E65006651CE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5A1E221E26C80E65006651CE /* Build configuration list for PBXNativeTarget "MemriUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5A1E221F26C80E65006651CE /* Debug */,
-				5A1E222026C80E65006651CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
